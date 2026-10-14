@@ -19,9 +19,9 @@ export default function Router(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path = '/' element = {<Home/>} />;
+                <Route path = '/' element = {<Login/>} />;
                 <Route path = '/pages/cadastro/index.jsx' element = {<Cadastro/>} />;
-                <Route path = '/pages/login/index.jsx' element = {<Login/>} />;
+                <Route path = '/pages/home/index.jsx' element = {<Home/>} />;
                 <Route path = '/pages/user/index.jsx' element = {<User/>} />;
                 <Route path = '/pages/hemocentro/index.jsx' element = {<Hemocentro/>} />;
                 <Route path = '/pages/grupos/index.jsx' element = {<Grupos/>} />;
