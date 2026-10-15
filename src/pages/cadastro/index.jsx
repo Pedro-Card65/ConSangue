@@ -6,7 +6,7 @@ export default function Cadastro() {
     <div className="cadastro">
       <header>
         <img src="" alt="" />
-
+        
       </header>
     </div>
   );
