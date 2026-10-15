@@ -15,6 +15,8 @@ import Grupos from './pages/grupos/index.jsx';
 
 import Historico from './pages/historico/index.jsx';
 
+import Error from './pages/error404/index.jsx'
+
 export default function Router(){
     return(
         <BrowserRouter>
@@ -26,6 +28,7 @@ export default function Router(){
                 <Route path = '/pages/hemocentro/index.jsx' element = {<Hemocentro/>} />;
                 <Route path = '/pages/grupos/index.jsx' element = {<Grupos/>} />;
                 <Route path = '/pages/historico/index.jsx' element = {<Historico/>} />;
+                <Route path = '*' element = {<Error/>}/>
             </Routes>
         </BrowserRouter>
     )

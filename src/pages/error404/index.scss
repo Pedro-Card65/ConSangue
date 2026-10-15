@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.Background{
+    background-image: linear-gradient(to right, white, rgb(255, 181, 181));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
