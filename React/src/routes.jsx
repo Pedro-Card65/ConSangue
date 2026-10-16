@@ -22,12 +22,12 @@ export default function Router(){
         <BrowserRouter>
             <Routes>
                 <Route path = '/' element = {<Login/>} />;
-                <Route path = '/pages/cadastro/index.jsx' element = {<Cadastro/>} />;
-                <Route path = '/pages/home/index.jsx' element = {<Home/>} />;
-                <Route path = '/pages/user/index.jsx' element = {<User/>} />;
-                <Route path = '/pages/hemocentro/index.jsx' element = {<Hemocentro/>} />;
-                <Route path = '/pages/grupos/index.jsx' element = {<Grupos/>} />;
-                <Route path = '/pages/historico/index.jsx' element = {<Historico/>} />;
+                <Route path = '/cadastro' element = {<Cadastro/>} />;
+                <Route path = '/home' element = {<Home/>} />;
+                <Route path = '/user' element = {<User/>} />;
+                <Route path = '/hemocentro' element = {<Hemocentro/>} />;
+                <Route path = '/grupos' element = {<Grupos/>} />;
+                <Route path = '/historico' element = {<Historico/>} />;
                 <Route path = '*' element = {<Error/>}/>
             </Routes>
         </BrowserRouter>

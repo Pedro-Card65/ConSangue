@@ -1,10 +1,139 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
 
 export default function User() {
   return (
-    <div className="">
-      
+    <div className="pagina-user">
+      <div className="consangue">
+
+        <div className="logo">
+
+          <img src="/assets/images/Logo.png" alt="Logo" />
+        </div>
+
+        <div className="marca">
+
+          <h2>ConSangue</h2>
+          <p>Mobilização Coletiva para<br />Doação de Sangue</p>
+        </div>
+      </div>
+
+      <div className='pesquisa'>
+
+      <img src="/assets/icons/LupaPesquisa.png" alt="Lupa" />
+      <input type="text" placeholder="Pesquisar..." />
+
+      </div>
+
+      <section className="user">
+
+        <div className="informacoes-usuario">
+
+          <div className='titulo-informacoes-usuario'>
+
+            <h3>Suas Informações</h3>
+
+          </div>
+
+          <div className="conteudo-informacoes-usuario">
+
+          <img src="/assets/images/User.png" alt="User" />
+
+          <div className='coluna-user-1'>
+
+          <p>Nome do Usuário</p>
+          <p>E-mail</p>
+          <p>Cidade</p>
+          <p>Tipo Sanguíneo:</p>
+
+          </div>
+
+          <div className='coluna-user-2'>
+
+          <p>Ingressou em:</p>
+          <p>Doador 🩸</p>
+
+          </div>
+
+          </div>
+        </div>
+
+        <div className="grupos-comunidades">
+
+          <div className='titulo-grupos-comunidades'>
+
+            <h3>Grupos e Comunidades</h3>
+
+          </div>
+
+          <div className="conteudo-grupos-comunidades">
+
+            <div className='campanhas-participadas'>
+
+              <p>Campanhas Participadas</p>
+
+            </div>
+
+            <div className='grupos-participados'>
+
+              <p>Grupos Participados</p>
+
+            </div>
+
+            <div className='interesse-participacao'>
+
+              <p>Interesse de Participação</p>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div className="proxima-campanha">
+          
+
+          <div className='titulo-proxima-campanha'>
+
+            <h3>Próxima Campanha</h3>
+
+          </div>
+
+          <div className="conteudo-proxima-campanha">
+
+            <div className='informacoes-proxima-campanha'>
+
+              <div className='data-proxima-campanha'>
+
+                <h2>Data</h2>
+
+              </div>
+
+              <div className='informacoes-encontro-proxima-campanha'>
+
+                <h2>Local</h2>
+                <p>Endereço da Campanha</p>
+                <p>horário da Campanha</p>
+
+              </div>
+
+              <div className='confirmacao'>
+
+                <h2>Planejada</h2>
+
+              </div>
+
+            </div>
+
+            <div className='acessar-proxima-campanha'>
+
+              <button>Acessar Próxima Campanha</button>
+
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
     </div>
   );
 }

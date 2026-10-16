@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Grupos() {
   return (
     <div className="Background">
-        de bri
+        <h1>not found</h1>
     </div>
   );
 }
